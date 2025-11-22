@@ -1,0 +1,13 @@
+<select id="country"></select>
+
+<script>
+    let country_list = [
+        { country_id: 1, country_name: "India" },
+        { country_id: 2, country_name: "USA" },
+        { country_id: 3, country_name: "Canada" }
+    ];
+    let dropdown = document.getElementById("country");
+    country_list.forEach(function(c){
+        dropdown.innerHTML += `<option value="${c.country_id}">${c.country_name}</option>`;
+    });
+</script>

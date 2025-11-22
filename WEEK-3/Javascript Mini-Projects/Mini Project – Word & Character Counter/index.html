@@ -1,0 +1,25 @@
+<h2>Word and Character Counter</h2>
+
+<textarea id="txt" rows="6" cols="60"></textarea>
+
+<p id="result">0 Words | 0 Characters</p>
+
+<script>
+
+    let textarea = document.getElementById("txt");
+    let output = document.getElementById("result");
+
+    textarea.addEventListener("input", function(){
+
+        let text = textarea.value;
+
+        // count characters
+        let char = text.length;
+
+        // count words
+        let clean = text.trim();
+        let words = clean === "" ? 0 : clean.split(/\s+/).length;
+
+        output.innerText = words + " Words | " + char + " Characters";
+    });
+</script>

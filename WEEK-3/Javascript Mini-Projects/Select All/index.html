@@ -1,0 +1,15 @@
+<h3>Select Your Skills</h3>
+
+<input type="checkbox" id="all"> Select All <br>
+<input type="checkbox" class="chk"> HTML <br>
+<input type="checkbox" class="chk"> CSS <br>
+<input type="checkbox" class="chk"> JavaScript <br>
+
+<script>
+    let all = document.getElementById("all");
+    let boxes = document.querySelectorAll(".chk");
+
+    all.addEventListener("change", function(){
+        boxes.forEach(chk => chk.checked = all.checked);
+    });
+</script>

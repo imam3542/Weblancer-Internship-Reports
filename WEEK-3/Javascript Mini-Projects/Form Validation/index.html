@@ -1,0 +1,30 @@
+<h3>Login</h3>
+
+<input type="text" id="user" placeholder="User Name"><br>
+<span id="uError" style="color:red"></span><br>
+
+<input type="password" id="pass" placeholder="Password"><br>
+<span id="pError" style="color:red"></span><br>
+
+<button onclick="check()">Submit</button>
+
+<script>
+     function check(){
+        let u = user.value.trim();
+        let p = pass.value.trim();
+
+        if(u === ""){
+            uError.innerText = "Username empty";
+        }else if(u.length < 3){
+            uError.innerText = "Minimum 3 char";
+        }else{
+            uError.innerText = "";
+        }
+
+        if(p === ""){
+            pError.innerText = "Password empty";
+        }else{
+            pError.innerText = "";
+        }
+    }
+</script>
