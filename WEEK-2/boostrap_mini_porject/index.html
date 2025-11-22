@@ -1,0 +1,232 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>k.d vegan shop bootstrap</title>
+
+    <!-- bootstrap link -->
+    <link rel="stylesheet" href="../bootstrap-5.3.8-dist/css/bootstrap.min.css">
+
+    <style>
+        .big_banner_box{
+            background-image:url('./images/background-image.png');
+            background-size:cover;
+            padding:250px 20px;
+            text-align:center;
+        }
+        .steps_main_box{
+            padding:30px 20px;
+            min-height:180px;
+        }
+        .store_card_box1, .store_card_box2, .store_card_box3, .store_card_box4{
+            border:1px solid lightgray;
+            padding:20px;
+            background:white;
+            margin:10px;
+            text-align:center;
+        }
+        .t_box1, .t_box2, .t_box3{
+            border:1px solid lightgray;
+            padding:20px;
+            margin:10px;
+            background:white;
+            text-align:center;
+        }
+        .footer_last_box{
+            background:black;
+            color:white;
+            padding:10px;
+            text-align:center;
+        }
+        .veg_img1{
+            width:100%;
+        }
+    </style>
+</head>
+<body>
+
+<!-- nav -->
+<nav class="navbar navbar-expand-lg bg-white shadow-sm fixed-top nav_top_bar1">
+  <div class="container">
+    <a class="navbar-brand" href="#">
+      <img src="./images/logo.jpg" width="40">
+      k.d vegan shop
+    </a>
+    <button class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#navmenu">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navmenu">
+      <ul class="navbar-nav ms-auto">
+        <li class="nav-item"><a class="nav-link" href="#">home</a></li>
+        <li class="nav-item"><a class="nav-link" href="#">video</a></li>
+        <li class="nav-item"><a class="nav-link" href="#">offers</a></li>
+      </ul>
+      <button class="btn btn-success ms-3">buy now</button>
+    </div>
+  </div>
+</nav>
+
+<!-- banner -->
+<div class="big_banner_box mt-5">
+    <h1>welcome to k.d vegan store</h1>
+    <p>eat pure live pure fresh food made with care.</p>
+</div>
+
+<!-- steps -->
+<div class="container mt-4">
+  <div class="row text-center">
+    <div class="col-md-3 steps_main_box step_one_box" style="background:lightgreen;">
+      <h4>step 01</h4>
+      <p>eat sabzi daily and drink milk at night.</p>
+    </div>
+    <div class="col-md-3 steps_main_box step_two_box" style="background:yellowgreen;">
+      <h4>step 02</h4>
+      <p>walk after lunch and dont skip breakfast.</p>
+    </div>
+    <div class="col-md-3 steps_main_box step_three_box" style="background:orange;">
+      <h4>step 03</h4>
+      <p>eat fruits everyday like apple banana.</p>
+    </div>
+    <div class="col-md-3 steps_main_box step_four_box" style="background:pink;">
+      <h4>step 04</h4>
+      <p>drink water on time and sleep early.</p>
+    </div>
+  </div>
+</div>
+
+<!-- store -->
+<div class="bg-light text-center p-4 mt-4 store_full_box">
+  <h2>our vegan store</h2>
+  <p>fresh food best price in surat</p>
+
+  <div class="container">
+    <div class="row justify-content-center">
+
+      <div class="col-md-3">
+        <div class="store_card_box1">
+          <div>🥬</div>
+          <h5>fresh sabzi</h5>
+          <p>organic sabzi from local farmers</p>
+        </div>
+      </div>
+
+      <div class="col-md-3">
+        <div class="store_card_box2">
+          <div>🍅</div>
+          <h5>daily fruits</h5>
+          <p>apple mango orange available</p>
+        </div>
+      </div>
+
+      <div class="col-md-3">
+        <div class="store_card_box3">
+          <div>💦</div>
+          <h5>cooking oils</h5>
+          <p>healthy oils for sabzi biryani</p>
+        </div>
+      </div>
+
+      <div class="col-md-3">
+        <div class="store_card_box4">
+          <div>🥗</div>
+          <h5>combo offers</h5>
+          <p>monthly packs for students</p>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</div>
+
+<!-- testimonials -->
+<div class="p-4 text-center testi_main_box">
+  <h2>happy customers</h2>
+  <div class="container">
+    <div class="row justify-content-center">
+
+      <div class="col-md-3">
+        <div class="t_box1">
+          <img src="./images/cx-1.jpeg" width="60" class="rounded-circle">
+          <p>store clean and staff polite</p>
+          <h6>imran shaikh</h6>
+        </div>
+      </div>
+
+      <div class="col-md-3">
+        <div class="t_box2">
+          <img src="./images/cx-2.jpeg" width="60" class="rounded-circle">
+          <p>fresh sabzi always cheap</p>
+          <h6>lubna shaikh</h6>
+        </div>
+      </div>
+
+      <div class="col-md-3">
+        <div class="t_box3">
+          <img src="./images/cx-3.jpeg" width="60" class="rounded-circle">
+          <p>best oil for biryani</p>
+          <h6>ayaan khan</h6>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</div>
+
+<!-- follow -->
+<div class="container-fluid mt-4 follow_main_side">
+  <div class="row">
+    <div class="col-md-6 p-0 follow_left_img">
+      <img src="./images/fruits-image.jpg" class="veg_img1">
+    </div>
+    <div class="col-md-6 bg-warning text-center p-5 follow_right_box">
+      <h3>follow us</h3>
+      <p>get new items and ramzan offers</p>
+      <input type="text" class="form-control w-75 mx-auto" placeholder="your email">
+      <button class="btn btn-danger mt-3">subscribe</button>
+    </div>
+  </div>
+</div>
+
+<!-- stats -->
+<div class="text-center p-4 bg-light stats_big_box">
+  <div class="row justify-content-center">
+    <div class="col-3"><h3>7</h3><p>years exp</p></div>
+    <div class="col-3"><h3>3k+</h3><p>customers</p></div>
+    <div class="col-3"><h3>5k+</h3><p>happy families</p></div>
+    <div class="col-3"><h3>2k</h3><p>deliveries</p></div>
+  </div>
+</div>
+
+<!-- video -->
+<div class="text-center p-4 video_show_box">
+  <h2>our short video</h2>
+  <iframe width="80%" height="350" src="https://player.vimeo.com/video/275412279"></iframe>
+</div>
+
+<!-- address -->
+<div class="container mt-4 add_main_row">
+  <div class="row">
+    <div class="col-md-6">
+      <h4>address info</h4>
+      <p>K.D Vegan Store<br>Adajan Surat<br>mon-sat 9am-8pm</p>
+      <p>branch varachha<br>next to biryani point<br>sun 10am-6pm</p>
+    </div>
+    <div class="col-md-6 contact_form_box">
+      <h4>contact us</h4>
+      <input class="form-control mb-2" type="text" placeholder="name">
+      <input class="form-control mb-2" type="text" placeholder="phone">
+      <input class="form-control mb-2" type="text" placeholder="subject">
+      <input class="form-control mb-2" type="email" placeholder="email">
+      <textarea class="form-control mb-2" placeholder="message"></textarea>
+      <button class="btn btn-success mt-2">submit now</button>
+    </div>
+  </div>
+</div>
+
+<!-- footer -->
+<footer class="footer_last_box">
+  © 2025 k.d vegan store surat
+</footer>
+
+<script src="../bootstrap-5.3.8-dist/bootstrap-5.3.8-dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
