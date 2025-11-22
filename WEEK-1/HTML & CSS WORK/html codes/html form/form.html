@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HML FORM</title>
+</head>
+<body>
+    
+    <form action="" method="">
+        <fieldset>
+            <legend>Application-Form</legend>
+        
+        
+        <div>
+            <label for="name">Name:</label>
+            <input type="text">
+        </div>
+        <br>
+        <div>
+            <label for="email">Email</label>
+            <input type="email">
+        </div>
+        <br>
+        <div>
+            <label for="Gender">Gender</label>
+            <input type="radio" name="Gender" value="Male">Male 
+            <input type="radio" name="Gender" value="Female">Female
+        </div>
+        <br>
+        <div>
+            <label for="Nationality">Nationality:</label>
+            <select name="Nationality" id="Nat1">
+                <option value="India">India</option>
+                <option value="Russia">Russia</option>
+                <option value="other">other</option>
+            </select>
+        </div>
+        <br>
+        <div>
+            <label for="Skills">Skills</label>
+            <input type="checkbox" name="skills" value="Asp.Net"> Asp .Net
+            <input type="checkbox" name="skills" value="c"> C
+            <input type="checkbox" name="skills" value="sql"> sql
+            <input type="checkbox" name="skills" value="MVC"> MVC
+        </div>
+        <br>
+        <div>
+            <label for="job post">Post applying for:</label>
+            <input type="radio" name="jobpost" value="software-engineer">software-engineer
+            <input type="radio" name="jobpost" value="web developer"> web developer
+            <input type="radio" name="jobpost" value="team-leader">team leader 
+            <input type="radio" name="jobpost" value="project-manager">project-manager
+        </div>
+        <br>
+        <div>
+            <label for="file-upload">Upload File</label>
+            <input type="file">
+        </div>
+        <br>
+        <br>
+        <div>
+            <label for="resume">Paste Your Resume:</label>
+            <textarea name="resume" id="res1" cols="10" rows="2">
+            </textarea>
+        </div>
+        <br>
+        <div>
+            <input type="checkbox" name="notify" value="notify-yes-email"> Notigy me via email <br>
+            <input type="radio" name="tc" value="tc"> i agree to t c 
+        </div>
+        <br>
+        <div>
+            <input type="submit" name="submit" value="submit">
+            <input type="reset" name="reset" value="reset">
+        </div>
+        </fieldset>
+    </form>
+    
+</body>
+</html>
