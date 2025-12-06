@@ -1,111 +1,129 @@
 🚀 Weblancer Internship – My Weekly Tasks & Projects
-My collection of weekly internship tasks and mini-projects as I learn web development.
-Updated every week with new stuff I'm building! 📝
 
-Currently working on HTML/CSS, JavaScript, and React.
+My collection of weekly internship tasks and mini-projects as I learn web development.
+Updated every week with new things I'm building! 📝
+
+Currently working on HTML/CSS, JavaScript, React, React Hooks and APIs.
 
 📂 What's here
-Each week I work on different stuff:
 
-WEEK-1 – HTML & CSS basics
+Each week I work on different skills:
+
+🔹 WEEK-1 – HTML & CSS basics
+
 Static pages, forms, tables, layouts – learning the fundamentals.
 
-WEEK-2 – Bootstrap & responsive design
-Making things look good on mobile and desktop using Bootstrap.
+🔹 WEEK-2 – Bootstrap & responsive design
 
-WEEK-3 – JavaScript projects
-Playing with arrays, DOM stuff, form validation, dropdowns, toggles – real JavaScript logic.
+Making layouts look good on both mobile and desktop using Bootstrap.
 
-WEEK-4 – React apps
-Building small React apps with components, Hooks, and Vite. Getting into modern React.
+🔹 WEEK-3 – JavaScript projects
 
-WEEK-5+ – More coming soon! 🔄
+DOM manipulation, form validation, dropdowns, events, and mini-projects.
 
-Just open any week folder to see what I built that week!
+🔹 WEEK-4 – React apps
 
-📁 Folder structure
-text
+Components, props, state, hooks, and small apps using Vite.
+
+🔹 WEEK-5 – React Hooks + API projects (New!)
+
+Practicing all React hooks (useState, useEffect, useRef, useContext, useMemo, useCallback, useReducer, custom hooks)
+
+API fetching using Axios + JSONPlaceholder
+
+Mini projects including API data display and Counter app using useReducer
+
+🔥 More weeks coming soon!
+
+📁 Folder Structure
 Weblancer-Internship-Reports/
 │
-├── WEEK-1/     # HTML & CSS stuff
-├── WEEK-2/     # Bootstrap projects
-├── WEEK-3/     # JavaScript mini-projects
-├── WEEK-4/     # React apps
-└── WEEK-5/     # (coming next...)
-🛠 What I'm using
+├── WEEK-1/   # HTML & CSS apps
+├── WEEK-2/   # Bootstrap responsive projects
+├── WEEK-3/   # JavaScript mini-projects
+├── WEEK-4/   # React apps using Vite
+└── WEEK-5/   # React Hooks + Axios + API projects
+
+🛠 Technologies I'm using
+
 HTML5 & CSS3
 
-Bootstrap (for responsive stuff)
+Bootstrap
 
 JavaScript (ES6+)
 
-React with Hooks
+React + Hooks
 
-Vite (fast build tool)
+Axios
+
+JSONPlaceholder API
+
+Vite
 
 Git & GitHub
 
 ▶️ How to open projects
-For HTML / CSS / JS projects (WEEK-1, 2, 3)
-Super simple:
+🔸 For HTML / CSS / JS (WEEK-1, 2, 3)
 
 Go to the week folder
 
 Open the .html file in your browser
+Done 🎉
 
-Done! 🎉
+(Or use VS Code Live Server for faster testing)
 
-Or use VS Code Live Server if you want.
-
-For React projects (WEEK-4+)
-Copy the repo
-
-bash
+🔸 For React projects (WEEK-4 and WEEK-5)
 git clone https://github.com/imam3542/Weblancer-Internship-Reports.git
-cd Weblancer-Internship-Reports/WEEK-4/React/mt-react-app
-Install stuff
-
-bash
+cd Weblancer-Internship-Reports
+cd WEEK-4/PROJECT_FOLDER_NAME   # or WEEK-5 depending on project
 npm install
-Run it
-
-bash
 npm run dev
-Open the link that shows up (usually http://localhost:5173/) in your browser.
 
-Do the same for other React projects in their folders too.
 
-✅ What I've done so far
-WEEK-1 ✅ Basic HTML/CSS pages and layouts
+Open the localhost link in the browser.
 
-WEEK-2 ✅ Bootstrap responsive stuff
-
-WEEK-3 ✅ JavaScript mini-projects (validation, events, DOM)
-
-WEEK-4 ✅ React components and Hooks
-
-WEEK-5+ 🔄 More coming...
-
+✅ Progress Summary
+Week	Status	Focus
+Week-1	✔ Completed	HTML & CSS basics
+Week-2	✔ Completed	Bootstrap & responsive design
+Week-3	✔ Completed	JavaScript logic & DOM
+Week-4	✔ Completed	React components & hooks
+Week-5	✔ Completed 🎉	React Hooks + Axios API + mini projects
+Week-6	🔄 Coming soon	...
 🎯 What I'm learning
-Making websites look good and work on phones
 
-Writing JavaScript that actually does stuff
+Writing clean user interfaces
 
-Breaking things into React components
+Making websites responsive
 
-Understanding Hooks and state
+Reusable JavaScript logic
 
-How build tools like Vite work
+Breaking UI into React components
 
-Basically learning full-stack stuff from the ground up as a college intern! 💪
+Understanding hooks and API fetching
+
+Building real-world projects step by step
+
+Basically, building full-stack skills from the ground up as an intern 💪
 
 🔄 Updates
-New week = new projects added to the repo. Check back every week to see what's new!
 
-🤝 Have ideas or found bugs?
-Feel free to open an issue or let me know if something's wrong or could be better. I'm learning so feedback is super helpful!
+Every week new files and projects are added.
+⭐ Follow the repo / check regularly to see what’s new!
+
+🤝 Feedback
+
+If you have ideas to improve my code or notice bugs, feel free to open an issue.
+I'm learning and improving every day, and feedback really helps!
 
 📄 License
-MIT License – use these projects however you want for learning or personal stuff.
 
-Happy coding! 🚀
+MIT License – You can use these projects for learning or personal use.
+
+If you want, I can also:
+✔ add a Table of Contents
+✔ add screenshots / demo GIFs of projects
+✔ generate badges (React, JavaScript, etc.)
+✔ format README with colors and icons
+
+Tell me what style you want next and I’ll update again. 🚀
