@@ -1,129 +1,111 @@
 🚀 Weblancer Internship – My Weekly Tasks & Projects
 
 My collection of weekly internship tasks and mini-projects as I learn web development.
-Updated every week with new things I'm building! 📝
+Updated every week with new things I’m building 📝
 
-Currently working on HTML/CSS, JavaScript, React, React Hooks and APIs.
+Currently working on HTML, CSS, JavaScript, React, React Hooks, APIs, Tailwind CSS, and state management libraries.
 
-📂 What's here
+📂 What’s here
 
-Each week I work on different skills:
+Each week focuses on different skills:
 
-🔹 WEEK-1 – HTML & CSS basics
+🔹 WEEK-1 – HTML & CSS basics  
+Static pages, forms, tables, layouts, and basic styling to understand the fundamentals.
 
-Static pages, forms, tables, layouts – learning the fundamentals.
+🔹 WEEK-2 – Bootstrap & responsive design  
+Responsive layouts for mobile and desktop using Bootstrap grid and components.
 
-🔹 WEEK-2 – Bootstrap & responsive design
+🔹 WEEK-3 – JavaScript projects  
+DOM manipulation, form validation, events, dropdowns, and small JavaScript logic-based projects.
 
-Making layouts look good on both mobile and desktop using Bootstrap.
+🔹 WEEK-4 – React apps  
+React components, props, state, hooks, and small apps created using Vite.
 
-🔹 WEEK-3 – JavaScript projects
+🔹 WEEK-5 – React Hooks + API projects  
+- useState, useEffect, useRef, useReducer, useMemo, useCallback  
+- API fetching using Axios and JSONPlaceholder  
+- Mini projects like API data display and counter app
 
-DOM manipulation, form validation, dropdowns, events, and mini-projects.
-
-🔹 WEEK-4 – React apps
-
-Components, props, state, hooks, and small apps using Vite.
-
-🔹 WEEK-5 – React Hooks + API projects (New!)
-
-Practicing all React hooks (useState, useEffect, useRef, useContext, useMemo, useCallback, useReducer, custom hooks)
-
-API fetching using Axios + JSONPlaceholder
-
-Mini projects including API data display and Counter app using useReducer
-
-🔥 More weeks coming soon!
+🔹 WEEK-6 – Tailwind CSS + State Management  
+- Styling React apps using Tailwind CSS  
+- Global state management using useContext hook  
+- State management using Zustand library  
+- Small practical demos to understand shared state in real apps
 
 📁 Folder Structure
+
 Weblancer-Internship-Reports/
 │
-├── WEEK-1/   # HTML & CSS apps
-├── WEEK-2/   # Bootstrap responsive projects
+├── WEEK-1/   # HTML & CSS projects
+├── WEEK-2/   # Bootstrap responsive layouts
 ├── WEEK-3/   # JavaScript mini-projects
 ├── WEEK-4/   # React apps using Vite
-└── WEEK-5/   # React Hooks + Axios + API projects
+├── WEEK-5/   # React Hooks + Axios + API projects
+└── WEEK-6/   # Tailwind CSS + useContext + Zustand
 
-🛠 Technologies I'm using
+🛠 Technologies I’m using
 
-HTML5 & CSS3
-
-Bootstrap
-
-JavaScript (ES6+)
-
-React + Hooks
-
-Axios
-
-JSONPlaceholder API
-
-Vite
-
-Git & GitHub
+HTML5 & CSS3  
+Bootstrap  
+JavaScript (ES6+)  
+React + Hooks  
+Tailwind CSS  
+Axios  
+JSONPlaceholder API  
+Zustand  
+Vite  
+Git & GitHub  
 
 ▶️ How to open projects
-🔸 For HTML / CSS / JS (WEEK-1, 2, 3)
 
-Go to the week folder
+For HTML / CSS / JS (WEEK-1, WEEK-2, WEEK-3)
 
-Open the .html file in your browser
-Done 🎉
+1. Go to the required week folder  
+2. Open the .html file in your browser  
+3. Done 🎉  
 
-(Or use VS Code Live Server for faster testing)
+(You can also use VS Code Live Server)
 
-🔸 For React projects (WEEK-4 and WEEK-5)
-git clone https://github.com/imam3542/Weblancer-Internship-Reports.git
-cd Weblancer-Internship-Reports
-cd WEEK-4/PROJECT_FOLDER_NAME   # or WEEK-5 depending on project
-npm install
-npm run dev
+For React projects (WEEK-4, WEEK-5, WEEK-6)
 
+git clone https://github.com/imam3542/Weblancer-Internship-Reports.git  
+cd Weblancer-Internship-Reports  
+cd WEEK-4/PROJECT_NAME   # or WEEK-5 / WEEK-6  
+npm install  
+npm run dev  
 
-Open the localhost link in the browser.
+Open the localhost link shown in the terminal.
 
 ✅ Progress Summary
-Week	Status	Focus
-Week-1	✔ Completed	HTML & CSS basics
-Week-2	✔ Completed	Bootstrap & responsive design
-Week-3	✔ Completed	JavaScript logic & DOM
-Week-4	✔ Completed	React components & hooks
-Week-5	✔ Completed 🎉	React Hooks + Axios API + mini projects
-Week-6	🔄 Coming soon	...
-🎯 What I'm learning
 
-Writing clean user interfaces
+Week-1 ✔ Completed – HTML & CSS basics  
+Week-2 ✔ Completed – Bootstrap & responsive design  
+Week-3 ✔ Completed – JavaScript logic & DOM  
+Week-4 ✔ Completed – React components & hooks  
+Week-5 ✔ Completed – React Hooks + Axios + API  
+Week-6 ✔ Completed – Tailwind CSS + useContext + Zustand  
 
-Making websites responsive
+🎯 What I’m learning
 
-Reusable JavaScript logic
+Writing clean UI  
+Making responsive layouts  
+Reusable JavaScript logic  
+Breaking UI into React components  
+Global state management  
+API fetching and real-world React patterns  
 
-Breaking UI into React components
-
-Understanding hooks and API fetching
-
-Building real-world projects step by step
-
-Basically, building full-stack skills from the ground up as an intern 💪
+Basically building strong frontend skills step by step as an intern 💪
 
 🔄 Updates
 
-Every week new files and projects are added.
-⭐ Follow the repo / check regularly to see what’s new!
+New files and projects are added every week.
+Follow the repo to see updates.
 
 🤝 Feedback
 
-If you have ideas to improve my code or notice bugs, feel free to open an issue.
-I'm learning and improving every day, and feedback really helps!
+If you have suggestions or find bugs, feel free to open an issue.
+I’m learning and improving every day.
 
 📄 License
 
-MIT License – You can use these projects for learning or personal use.
-
-If you want, I can also:
-✔ add a Table of Contents
-✔ add screenshots / demo GIFs of projects
-✔ generate badges (React, JavaScript, etc.)
-✔ format README with colors and icons
-
-Tell me what style you want next and I’ll update again. 🚀
+MIT License – Free to use for learning and personal projects.
